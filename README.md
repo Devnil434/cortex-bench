@@ -1,4 +1,4 @@
-# 🔀 AI Routing System with Privacy Firewall
+# 🔀 Cortex-Bench: AI Routing System with Privacy Firewall
 
 > Intelligent offline AI system that dynamically selects the best local LLM while protecting sensitive user data.
 
