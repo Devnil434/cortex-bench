@@ -1,0 +1,642 @@
+{
+  "coding": {
+    "phi3:mini": [
+      {
+        "model": "phi3:mini",
+        "latency_ms": 9248.23,
+        "ttft_ms": 383.88,
+        "tokens": 199,
+        "tps": 21.52,
+        "response_length": 507
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 3321.65,
+        "ttft_ms": 272.33,
+        "tokens": 70,
+        "tps": 21.07,
+        "response_length": 214
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 31971.66,
+        "ttft_ms": 286.09,
+        "tokens": 651,
+        "tps": 20.36,
+        "response_length": 2491
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 12051.65,
+        "ttft_ms": 277.08,
+        "tokens": 265,
+        "tps": 21.99,
+        "response_length": 837
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 16650.92,
+        "ttft_ms": 234.96,
+        "tokens": 356,
+        "tps": 21.38,
+        "response_length": 1509
+      }
+    ],
+    "llama3.2:3b": [
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 4019.32,
+        "ttft_ms": 352.14,
+        "tokens": 186,
+        "tps": 46.28,
+        "response_length": 783
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 4062.62,
+        "ttft_ms": 313.59,
+        "tokens": 189,
+        "tps": 46.52,
+        "response_length": 674
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 18945.6,
+        "ttft_ms": 343.65,
+        "tokens": 911,
+        "tps": 48.09,
+        "response_length": 4025
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 3448.0,
+        "ttft_ms": 363.22,
+        "tokens": 155,
+        "tps": 44.95,
+        "response_length": 602
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 5870.98,
+        "ttft_ms": 293.96,
+        "tokens": 278,
+        "tps": 47.35,
+        "response_length": 1065
+      }
+    ],
+    "mistral:7b": [
+      {
+        "model": "mistral:7b",
+        "latency_ms": 64690.51,
+        "ttft_ms": 783.8,
+        "tokens": 299,
+        "tps": 4.62,
+        "response_length": 916
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 14108.66,
+        "ttft_ms": 1080.41,
+        "tokens": 75,
+        "tps": 5.32,
+        "response_length": 252
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 114607.98,
+        "ttft_ms": 812.15,
+        "tokens": 626,
+        "tps": 5.46,
+        "response_length": 1921
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 58881.7,
+        "ttft_ms": 851.14,
+        "tokens": 353,
+        "tps": 6.0,
+        "response_length": 1211
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 24459.98,
+        "ttft_ms": 723.19,
+        "tokens": 144,
+        "tps": 5.89,
+        "response_length": 582
+      }
+    ]
+  },
+  "reasoning": {
+    "phi3:mini": [
+      {
+        "model": "phi3:mini",
+        "latency_ms": 8750.15,
+        "ttft_ms": 367.0,
+        "tokens": 148,
+        "tps": 16.91,
+        "response_length": 675
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 12861.1,
+        "ttft_ms": 371.09,
+        "tokens": 248,
+        "tps": 19.28,
+        "response_length": 843
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 38980.92,
+        "ttft_ms": 427.69,
+        "tokens": 761,
+        "tps": 19.52,
+        "response_length": 3648
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 38418.24,
+        "ttft_ms": 322.36,
+        "tokens": 787,
+        "tps": 20.49,
+        "response_length": 3745
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 33404.65,
+        "ttft_ms": 359.23,
+        "tokens": 661,
+        "tps": 19.79,
+        "response_length": 3282
+      }
+    ],
+    "llama3.2:3b": [
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 3405.45,
+        "ttft_ms": 339.85,
+        "tokens": 154,
+        "tps": 45.22,
+        "response_length": 670
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 3379.74,
+        "ttft_ms": 350.33,
+        "tokens": 151,
+        "tps": 44.68,
+        "response_length": 539
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 14151.67,
+        "ttft_ms": 297.92,
+        "tokens": 645,
+        "tps": 45.58,
+        "response_length": 3273
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 9407.6,
+        "ttft_ms": 300.86,
+        "tokens": 420,
+        "tps": 44.64,
+        "response_length": 2094
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 17975.1,
+        "ttft_ms": 308.31,
+        "tokens": 714,
+        "tps": 39.72,
+        "response_length": 3634
+      }
+    ],
+    "mistral:7b": [
+      {
+        "model": "mistral:7b",
+        "latency_ms": 11422.53,
+        "ttft_ms": 904.39,
+        "tokens": 65,
+        "tps": 5.69,
+        "response_length": 285
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 51998.04,
+        "ttft_ms": 1261.74,
+        "tokens": 317,
+        "tps": 6.1,
+        "response_length": 1091
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 103747.42,
+        "ttft_ms": 1020.22,
+        "tokens": 648,
+        "tps": 6.25,
+        "response_length": 3023
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 99376.38,
+        "ttft_ms": 1031.54,
+        "tokens": 484,
+        "tps": 4.87,
+        "response_length": 2195
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 81419.44,
+        "ttft_ms": 1156.65,
+        "tokens": 448,
+        "tps": 5.5,
+        "response_length": 2116
+      }
+    ]
+  },
+  "summarization": {
+    "phi3:mini": [
+      {
+        "model": "phi3:mini",
+        "latency_ms": 14756.53,
+        "ttft_ms": 371.78,
+        "tokens": 277,
+        "tps": 18.77,
+        "response_length": 1441
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 5902.17,
+        "ttft_ms": 363.41,
+        "tokens": 113,
+        "tps": 19.15,
+        "response_length": 617
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 39526.78,
+        "ttft_ms": 346.45,
+        "tokens": 734,
+        "tps": 18.57,
+        "response_length": 3753
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 12120.25,
+        "ttft_ms": 343.19,
+        "tokens": 245,
+        "tps": 20.21,
+        "response_length": 1440
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 1225.83,
+        "ttft_ms": 456.92,
+        "tokens": 17,
+        "tps": 13.87,
+        "response_length": 88
+      }
+    ],
+    "llama3.2:3b": [
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 4446.98,
+        "ttft_ms": 388.57,
+        "tokens": 201,
+        "tps": 45.2,
+        "response_length": 999
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 5584.31,
+        "ttft_ms": 345.05,
+        "tokens": 255,
+        "tps": 45.66,
+        "response_length": 1219
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 9006.84,
+        "ttft_ms": 367.95,
+        "tokens": 395,
+        "tps": 43.86,
+        "response_length": 2037
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 5152.67,
+        "ttft_ms": 361.4,
+        "tokens": 220,
+        "tps": 42.7,
+        "response_length": 1292
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 823.51,
+        "ttft_ms": 326.65,
+        "tokens": 24,
+        "tps": 29.14,
+        "response_length": 142
+      }
+    ],
+    "mistral:7b": [
+      {
+        "model": "mistral:7b",
+        "latency_ms": 46649.37,
+        "ttft_ms": 906.25,
+        "tokens": 221,
+        "tps": 4.74,
+        "response_length": 1020
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 34701.62,
+        "ttft_ms": 1230.4,
+        "tokens": 196,
+        "tps": 5.65,
+        "response_length": 945
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 94619.38,
+        "ttft_ms": 1130.03,
+        "tokens": 568,
+        "tps": 6.0,
+        "response_length": 2836
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 50242.12,
+        "ttft_ms": 1223.96,
+        "tokens": 317,
+        "tps": 6.31,
+        "response_length": 1661
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 7136.7,
+        "ttft_ms": 1022.14,
+        "tokens": 44,
+        "tps": 6.17,
+        "response_length": 236
+      }
+    ]
+  },
+  "factual_qa": {
+    "phi3:mini": [
+      {
+        "model": "phi3:mini",
+        "latency_ms": 39031.85,
+        "ttft_ms": 248.17,
+        "tokens": 763,
+        "tps": 19.55,
+        "response_length": 3873
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 5311.19,
+        "ttft_ms": 256.11,
+        "tokens": 106,
+        "tps": 19.96,
+        "response_length": 436
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 8703.94,
+        "ttft_ms": 373.72,
+        "tokens": 170,
+        "tps": 19.53,
+        "response_length": 871
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 4783.69,
+        "ttft_ms": 364.51,
+        "tokens": 90,
+        "tps": 18.81,
+        "response_length": 411
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 16765.07,
+        "ttft_ms": 266.63,
+        "tokens": 346,
+        "tps": 20.64,
+        "response_length": 1720
+      }
+    ],
+    "llama3.2:3b": [
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 7738.04,
+        "ttft_ms": 377.66,
+        "tokens": 348,
+        "tps": 44.97,
+        "response_length": 1646
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 2110.45,
+        "ttft_ms": 301.86,
+        "tokens": 85,
+        "tps": 40.28,
+        "response_length": 349
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 6544.22,
+        "ttft_ms": 330.33,
+        "tokens": 289,
+        "tps": 44.16,
+        "response_length": 1425
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 2339.95,
+        "ttft_ms": 340.06,
+        "tokens": 94,
+        "tps": 40.17,
+        "response_length": 452
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 1197.27,
+        "ttft_ms": 299.65,
+        "tokens": 43,
+        "tps": 35.91,
+        "response_length": 196
+      }
+    ],
+    "mistral:7b": [
+      {
+        "model": "mistral:7b",
+        "latency_ms": 56226.96,
+        "ttft_ms": 850.58,
+        "tokens": 311,
+        "tps": 5.53,
+        "response_length": 1287
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 7718.97,
+        "ttft_ms": 802.69,
+        "tokens": 48,
+        "tps": 6.22,
+        "response_length": 193
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 55517.99,
+        "ttft_ms": 770.82,
+        "tokens": 348,
+        "tps": 6.27,
+        "response_length": 1526
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 13540.51,
+        "ttft_ms": 621.32,
+        "tokens": 84,
+        "tps": 6.2,
+        "response_length": 385
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 42700.99,
+        "ttft_ms": 572.43,
+        "tokens": 279,
+        "tps": 6.53,
+        "response_length": 1383
+      }
+    ]
+  },
+  "creative": {
+    "phi3:mini": [
+      {
+        "model": "phi3:mini",
+        "latency_ms": 3003.8,
+        "ttft_ms": 286.82,
+        "tokens": 54,
+        "tps": 17.98,
+        "response_length": 189
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 13052.51,
+        "ttft_ms": 409.7,
+        "tokens": 272,
+        "tps": 20.84,
+        "response_length": 1130
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 12964.74,
+        "ttft_ms": 332.08,
+        "tokens": 273,
+        "tps": 21.06,
+        "response_length": 1294
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 22999.72,
+        "ttft_ms": 352.04,
+        "tokens": 468,
+        "tps": 20.35,
+        "response_length": 2445
+      },
+      {
+        "model": "phi3:mini",
+        "latency_ms": 1338.26,
+        "ttft_ms": 350.69,
+        "tokens": 23,
+        "tps": 17.19,
+        "response_length": 72
+      }
+    ],
+    "llama3.2:3b": [
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 643.57,
+        "ttft_ms": 364.16,
+        "tokens": 15,
+        "tps": 23.31,
+        "response_length": 63
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 6965.98,
+        "ttft_ms": 323.37,
+        "tokens": 313,
+        "tps": 44.93,
+        "response_length": 1556
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 4497.78,
+        "ttft_ms": 327.4,
+        "tokens": 197,
+        "tps": 43.8,
+        "response_length": 912
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 15794.77,
+        "ttft_ms": 324.82,
+        "tokens": 599,
+        "tps": 37.92,
+        "response_length": 3407
+      },
+      {
+        "model": "llama3.2:3b",
+        "latency_ms": 6257.78,
+        "ttft_ms": 336.28,
+        "tokens": 148,
+        "tps": 23.65,
+        "response_length": 590
+      }
+    ],
+    "mistral:7b": [
+      {
+        "model": "mistral:7b",
+        "latency_ms": 4081.54,
+        "ttft_ms": 477.47,
+        "tokens": 27,
+        "tps": 6.62,
+        "response_length": 82
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 27648.9,
+        "ttft_ms": 747.57,
+        "tokens": 181,
+        "tps": 6.55,
+        "response_length": 807
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 31157.89,
+        "ttft_ms": 638.65,
+        "tokens": 194,
+        "tps": 6.23,
+        "response_length": 863
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 51983.5,
+        "ttft_ms": 674.18,
+        "tokens": 337,
+        "tps": 6.48,
+        "response_length": 1733
+      },
+      {
+        "model": "mistral:7b",
+        "latency_ms": 14989.33,
+        "ttft_ms": 712.69,
+        "tokens": 101,
+        "tps": 6.74,
+        "response_length": 324
+      }
+    ]
+  }
+}
