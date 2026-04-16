@@ -45,8 +45,8 @@ class SmartRouter:
     """
     Multi-criteria model selection engine.
     Scoring formula:
-      final_score = capability_score * 0.6
-                  + speed_score * 0.25
+      final_score = capability_score * 0.75
+                  + speed_score * 0.1
                   + memory_score * 0.15
     """
 
@@ -70,7 +70,7 @@ class SmartRouter:
             cap = get_capability_score(model_name, intent.value)
             spd = self._speed_score(profile)
             mem = self._memory_score(model_name, free_gb)
-            total = cap * 0.60 + spd * 0.25 + mem * 0.15
+            total = cap * 0.75 + spd * 0.10 + mem * 0.15
             model_scores[model_name] = round(total, 4)
 
         # High complexity: boost heavier model scores
@@ -89,18 +89,14 @@ class SmartRouter:
             fallback = "llama3.2:3b"
             reasoning = "Sensitive query — routed to smallest model to minimize data exposure"
         else:
-            # Filter out models that don't have enough memory
-            viable = {
-                m: s for m, s in model_scores.items()
-                if self._has_memory(m, free_gb)
-            }
+            # Penalize models that don't have enough memory instead of removing them
+            viable_scores = model_scores.copy()
+            for m in viable_scores:
+                if not self._has_memory(m, free_gb):
+                    viable_scores[m] *= 0.1  # Penalize score by 90%
+                    logger.debug(f"Penalizing {m} due to low memory.")
 
-            if not viable:
-                # Emergency fallback — always run phi3:mini
-                logger.warning("No model fits in available memory — forcing phi3:mini")
-                selected = "phi3:mini"
-            else:
-                selected = max(viable, key=lambda m: viable[m])
+            selected = max(viable_scores, key=lambda m: viable_scores[m])
 
             # Fallback = next tier down from selected
             fallback = self._get_fallback(selected)
