@@ -39,8 +39,8 @@ class IntentResult:
 # Keyword maps per intent — case-insensitive substring match
 INTENT_KEYWORDS: dict[Intent, list[str]] = {
     Intent.CODING: [
-        "write code", "write a function", "implement", "debug", "fix the bug",
-        "python script", "javascript", "typescript", "java ", "c++", "golang",
+        "python ", "javascript", "typescript", "java ", "c++", "golang",
+        "write a function", "implement", "debug", "fix the bug",
         "sql query", "regex", "algorithm", "data structure", "class ",
         "unit test", "api endpoint", "dockerfile", "bash script", "shell",
         "error:", "traceback", "syntaxerror", "valueerror", "null pointer",
@@ -71,7 +71,7 @@ INTENT_KEYWORDS: dict[Intent, list[str]] = {
         "roleplay", "pretend", "fantasy", "narrative",
     ],
 }
-
+# ---------------------------------Fast Keyword Classifier-------------------------------
 # Model routing table
 MODEL_ROUTING: dict[Intent, str] = {
     Intent.CODING: "phi3:mini",
@@ -149,6 +149,8 @@ class KeywordClassifier:
             return Intent.SUMMARIZATION
         return None
     
+    # -------------------------Ollama Zero-Shot Fallback-----------------------------
+
 class OllamaIntentClassifier:
     """
     Stage 2: Zero-shot classification via local Ollama.
