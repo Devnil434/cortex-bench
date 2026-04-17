@@ -6,7 +6,7 @@ Pages are auto-discovered from frontend/pages/*.py
 import streamlit as st
 
 st.set_page_config(
-    page_title="AI Routing System",
+    page_title="Cortex-Bench-AI - AI Routing System",
     page_icon="🔀",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -14,7 +14,7 @@ st.set_page_config(
 
 # Sidebar navigation info
 with st.sidebar:
-    st.markdown("## 🔀 AI Routing System")
+    st.markdown("## 🔀 Cortex-Bench-AI - AI Routing System")
     st.markdown("**Privacy-First · Local · Offline**")
     st.divider()
     st.markdown("### Models Available")
@@ -27,7 +27,7 @@ with st.sidebar:
     st.divider()
     st.caption("All inference runs locally via Ollama. Zero external API calls.")
 
-st.title("🔀 Intelligent AI Routing System")
+st.title("🔀 Cortex-Bench-AI - Intelligent AI Routing System")
 st.markdown("""
 Welcome! This system automatically selects the best local LLM for your query
 while protecting any sensitive data you enter.
